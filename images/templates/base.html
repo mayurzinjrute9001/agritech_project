@@ -39,8 +39,42 @@
         {% endblock %}
     </div>
 
+    <div class="m-4 p-4 border border-info rounded">
+           <h2 class="mb-4 text-center text-info " >Dynamic Map Visualization</h2>
+    <div id="map" style="height: 500px;"></div>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([20.5937, 78.9629], 5); // Default location and zoom level for India
+
+        // Add a tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Fetch GeoJSON data dynamically
+        fetch("{% url 'geojson_data' %}")
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        // Add popup for each pin
+                        if (feature.properties) {
+                            layer.bindPopup(
+                                `<strong>Extracted Text:</strong> ${feature.properties.extracted_text}<br>` +
+                                `<strong>Uploaded At:</strong> ${feature.properties.uploaded_at}`
+                            );
+                        }
+                    }
+                }).addTo(map);
+            })
+            .catch(error => console.error('Error loading GeoJSON:', error));
+    </script>
+    </div>
+
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3 mt-auto">
+    <footer class="bg-dark text-white text-center py-3 mt-4">
         <p>&copy; 2024 Agritech Company. All Rights Reserved.</p>
     </footer>
 

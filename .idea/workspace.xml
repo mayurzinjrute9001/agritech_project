@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8623cf7d-8aed-454a-ae74-7c66de3d87f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AgritechProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agritech_project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agritech_project/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agritech_project/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agritech_project/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agritech_project/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/migrations/0002_remove_uploadedimage_latitude_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/migrations/0003_uploadedimage_latitude_uploadedimage_longitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/models/UploadedImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/templates/map_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/templates/upload_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/templates/view_images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/utils/get_geolocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views/GeoJSON.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views/ImageDelete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views/ImageUpload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views/MapView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/views/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_58nMmfk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_99rwg4R.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_9MVNra2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_G6Z3m5k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_HurR8qk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_JcTqxcr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_LFbjTkd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_Uj8IuIr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_YIqUYPS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_j2KiYjz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_jnubzmu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_nCLBPVN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_rSy6j7B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240411_134000_vdVjhfJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240624_083054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240627_113950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240627_113950_daf2kEH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240627_113950_zHBwaPD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240629_111138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240709_115613.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240709_144534.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/20240709_144534_ueHcOb8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Edge_Cases.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Edge_Cases_7hZLEpk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Edge_Cases_fmlvV5Y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Edge_Cases_hwkIZ18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Edge_Cases_i9MbIoy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Edge_Cases_ir09OkI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/IMG-20240417-WA0033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/.idea/LearnPython.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/26-6-2023/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/26-6-2023/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/26-6-2023/genrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/26-6-2023/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/26-6-2023/q.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/26-6-2023/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/enc2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/encpsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/hirarachical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/hybrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/methodoverriding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/multilevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/multiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/singlelevelinheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/WayToProgram/xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/addition of numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/area_triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/avg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/cal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/fib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/rev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/squreroot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/fullpractice/swaping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice/q8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnPython/practice2/q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full practice/.idea/full practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full practice/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full practice/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2q3xFgiO981BCoJoo1mSBMHOcJo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mayur/PycharmProjects/AgritechProject/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mayur\PycharmProjects\AgritechProject\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mayur\PycharmProjects\AgritechProject\images\utils" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8623cf7d-8aed-454a-ae74-7c66de3d87f6" name="Changes" comment="" />
+      <created>1733904958074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733904958074</updated>
+    </task>
+    <servers />
+  </component>
+</project>

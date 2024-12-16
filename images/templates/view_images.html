@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+
+   <table border="1">
+    <tr>
+        <th>Image</th>
+        <th>Extracted Text</th>
+        <th>Timestamp</th>
+        <th>Actions</th>
+    </tr>
+    {% for image in images %}
+    <tr>
+        <td><img src="{{ image.image.url }}" alt="Uploaded Image" width="100"></td>
+        <td>{{ image.extracted_text }}</td>
+        <td>{{ image.uploaded_at }}</td>
+        <td>
+            <button class="btn btn-danger" onclick="deleteImage({{ image.id }})">Delete</button>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+<script>
+    function deleteImage(imageId) {
+        fetch(`/delete/${imageId}/`, {
+            method: 'POST',
+            headers: { 'X-CSRFToken': '{{ csrf_token }}' }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert('Image deleted successfully!');
+                location.reload(); // Refresh page or dynamically update the table and map
+            }
+        });
+    }
+</script>
+
+{% endblock %}
